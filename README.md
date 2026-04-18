@@ -95,5 +95,10 @@ The application is fully responsive:
 * Efficient state management using JavaScript
 * Separation of concerns (HTML, CSS, JS)
 
+## Author
 
+ Archana Singh
+
+## GitHub Repository
+https://github.com/Archanasingh27/Student-Registration-System.git
 
