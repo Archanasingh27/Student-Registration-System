@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <meta name="description" content="Register, edit and manage student records easily">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎓 Student Registration System</h1>
+        <p>Register, edit and manage student records easily</p>
+    </header>
+
+    <div class="container">
+
+        <!-- LEFT SIDE FORM -->
+        <section class="form-section">
+            <form id="studentForm">
+                <h2>Add Student</h2>
+
+                <input type="text" id="name" placeholder="Student Name" required>
+                <input type="text" id="studentId" placeholder="Student ID" required>
+                <input type="email" id="email" placeholder="Email ID" required>
+                <input type="text" id="contact" placeholder="Contact Number" required>
+
+                <button type="submit" id="submitBtn">Add Student</button>
+            </form>
+        </section>
+
+        <!-- RIGHT SIDE TABLE -->
+        <section class="display-section">
+            <h2>Registered Students</h2>
+        
+            <!-- TABLE (Desktop) -->
+            <div class="table-container">
+                <table id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>ID</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        
+            <!-- CARD VIEW (Mobile) -->
+            <div id="cardContainer" class="card-container"></div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+        
+        </html>
+
+        
